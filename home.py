@@ -8,6 +8,7 @@ current_page = st.session_state.get("current_page", "home")
 # Home page
 if current_page == "home":
     st.title("Home Page")
+    st.image('Solar.png')
     st.write("Welcome to the Home Page!")
 
     # Button to go to the About page
